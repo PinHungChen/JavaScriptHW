@@ -1,0 +1,119 @@
+﻿
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.HW2wrap {
+    width: 530px;
+    margin: auto auto;
+    /* background-color: #bfa; */
+    font-size: 18px;
+}
+
+.myForm {
+    border: 2px solid #808080;
+    margin: 0 auto;
+}
+
+.formgroup {
+    border-bottom: 2px solid #808080;
+    padding: 5px;
+}
+
+    .formgroup label {
+        font-weight: bold;
+    }
+
+    .formgroup:last-of-type {
+        border-bottom: 0px solid #808080;
+    }
+
+    .formgroup input {
+        width: 200px;
+        height: 20px;
+        margin: 5px;
+        font-size: 18px;
+        color: #000
+    }
+
+        .formgroup input::placeholder {
+            color: #959595;
+        }
+
+
+
+    .formgroup p {
+        /*background-color: #baf;*/
+        font: 14px;
+        color: #696969;
+    }
+
+
+input {
+   border: none;
+}
+
+.username::before {
+    content: '\f21b';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.password::before {
+    content: '\f084';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.date::before {
+    content: '\f073';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+
+.correct {
+    color: green;
+}
+
+    .correct::before {
+        content: '\f14a';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 20px;
+        margin-right: 5px;
+        color: green;
+    }
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+    .incorrect::before {
+        content: '\f410';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        margin-right: 5px;
+        color: red;
+    }
+
+
+
+
+/*.formButton {
+            padding: 5px;
+        }
+
+            .formButton button {
+                padding: 5px;
+                background-color: #c7c7c7;
+                border: 2px solid #808080;
+                font-size: 18px;
+                font-weight: bold;
+                width: 100px;
+            }*/

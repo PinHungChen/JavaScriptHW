@@ -1,0 +1,57 @@
+/* 主表單CSS */
+*{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+}
+
+.wrap{
+    width: 100%;
+    height: 100vh;    
+    background-color: #bbb;
+    
+}
+.headwrap{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 138, 230);
+    font: bold 50px "Times News Romans", Times;
+    
+}
+.bodywrap{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(248, 248, 248);
+    font-size: 30px;
+}
+
+.bodywrap .leftwrap{
+    height: 100%;
+    width: 20%;
+    /* flex-grow: 1; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(179, 179, 179);
+    font-weight: bold;
+}
+.bodywrap .leftwrap a{
+    text-decoration: none;
+    color: rgb(2, 68, 122);
+}
+.bodywrap .leftwrap a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.bodywrap .contextwrap{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 10; */
+    background-color: rgb(248, 248, 248);
+}

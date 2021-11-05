@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapCalender{
+    /* background-color: #bfa; */
+    width: 610px;
+    margin: auto auto;
+    height: 500px;
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 1%;
+}
+.calenderHeader{
+    padding: 15px 0px 20px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.calSelect, .calcomment, select{
+    text-align: center;
+    font-size: 20px;           
+}
+.calmain{
+    width: 430px;
+    height: 260px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+.tablebody{
+    margin: 0px auto;
+    background-color: #fff;
+    border: none;
+    font: normal bold;
+    
+}
+.calmain trhead{
+    /* background-color: rgb(35, 68, 255); */
+    margin: 0px auto;
+    display: block;
+    
+}
+trhead td{
+    /* padding: 0px 15px; */
+    border: 3px solid white ;
+    background-color: rgb(0, 105, 241);
+    width:100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.calmain trbody{
+    text-align: center;
+    margin: 1px auto;
+    display: block;
+}
+trbody td{
+    padding: 0px;
+    width: 50px;
+    height: 25px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    /* border: 3px solid white ; */
+    /* border-top: 2px; */
+    
+    background-color: rgb(151, 226, 255);
+}
+.normalDate{
+    padding: 0px;
+    width: 50px;
+    line-height: 25px;
+    font-weight: bold;
+
+    color:black;
+    border: 3px solid white ;
+    background-color: rgb(151, 226, 255);
+}
+.selDate {
+    padding: 0px;
+    width: 50px;
+    line-height: 25px;
+    font-weight: bold;
+    color:black;
+    border: 3px solid rgb(8, 113, 250) ;
+    background-color: rgb(62, 177, 253);
+}
+.noDate {
+    padding: 0px;
+    width: 50px;
+    height: 0px;
+    font-weight: bold;
+    color:black;
+    border: 3px solid white ;
+    background-color: rgb(206, 206, 206);
+}
+/* .calcomment{
+    border: 1px solid #000 ;
+} */
+
+.calfooter{
+    margin: 20px auto;
+    width: 600px;
+    text-align: center;
+    font: 18px "Times New Roman";
+    line-height: 3;
+    background-color: rgb(211, 228, 255);
+    border-radius: 1%;
+}
